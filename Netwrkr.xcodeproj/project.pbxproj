@@ -7,21 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E53928F1EA4F3B10087081A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53928E1EA4F3B10087081A /* AppDelegate.swift */; };
-		7E5392911EA4F3B10087081A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5392901EA4F3B10087081A /* ViewController.swift */; };
+		04179D1E1EE130E3009A1BFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04179D1D1EE130E3009A1BFB /* Constants.swift */; };
+		044108921EF3AEBF00686DF8 /* WebServicesURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044108911EF3AEBF00686DF8 /* WebServicesURL.swift */; };
+		044108991EF3E7FA00686DF8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044108981EF3E7FA00686DF8 /* ForgotPasswordViewController.swift */; };
+		0441089B1EF3F82700686DF8 /* ForgotPasswordVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441089A1EF3F82700686DF8 /* ForgotPasswordVC1.swift */; };
+		04AF08251EF5060A00D69F71 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF08241EF5060A00D69F71 /* EventViewController.swift */; };
+		04AF08271EF51BD600D69F71 /* CreateEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF08261EF51BD600D69F71 /* CreateEventVC.swift */; };
+		04CBF7281EF2BAFA0082F8C8 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBF7271EF2BAFA0082F8C8 /* DashBoardViewController.swift */; };
+		0B7B842BF0D0A8DBC1B0C275 /* Pods_Netwrkr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F30EB5C02E4623CF510DC /* Pods_Netwrkr.framework */; };
 		7E5392941EA4F3B10087081A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5392921EA4F3B10087081A /* Main.storyboard */; };
 		7E5392961EA4F3B10087081A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5392951EA4F3B10087081A /* Assets.xcassets */; };
 		7E5392991EA4F3B10087081A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5392971EA4F3B10087081A /* LaunchScreen.storyboard */; };
+		7EA3DD7B1EA63A73003FEC28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3DD7A1EA63A73003FEC28 /* LoginViewController.swift */; };
+		7EA3DD7D1EA63A85003FEC28 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3DD7C1EA63A85003FEC28 /* SignUpViewController.swift */; };
+		7EF88A0B1EA5FC7900A43B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF88A041EA5FC7900A43B12 /* AppDelegate.swift */; };
+		7EF88A0C1EA5FC7900A43B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF88A071EA5FC7900A43B12 /* ViewController.swift */; };
+		7EF88A191EA5FC9600A43B12 /* Brandon_bld_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A0D1EA5FC9600A43B12 /* Brandon_bld_it.otf */; };
+		7EF88A1A1EA5FC9600A43B12 /* Brandon_bld.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A0E1EA5FC9600A43B12 /* Brandon_bld.otf */; };
+		7EF88A1B1EA5FC9600A43B12 /* Brandon_blk_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A0F1EA5FC9600A43B12 /* Brandon_blk_it.otf */; };
+		7EF88A1C1EA5FC9600A43B12 /* Brandon_blk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A101EA5FC9600A43B12 /* Brandon_blk.otf */; };
+		7EF88A1D1EA5FC9600A43B12 /* Brandon_light_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A111EA5FC9600A43B12 /* Brandon_light_it.otf */; };
+		7EF88A1E1EA5FC9600A43B12 /* Brandon_light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A121EA5FC9600A43B12 /* Brandon_light.otf */; };
+		7EF88A1F1EA5FC9600A43B12 /* Brandon_med_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A131EA5FC9600A43B12 /* Brandon_med_it.otf */; };
+		7EF88A201EA5FC9600A43B12 /* Brandon_med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A141EA5FC9600A43B12 /* Brandon_med.otf */; };
+		7EF88A211EA5FC9600A43B12 /* Brandon_reg_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A151EA5FC9600A43B12 /* Brandon_reg_it.otf */; };
+		7EF88A221EA5FC9600A43B12 /* Brandon_reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A161EA5FC9600A43B12 /* Brandon_reg.otf */; };
+		7EF88A231EA5FC9600A43B12 /* Brandon_thin_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A171EA5FC9600A43B12 /* Brandon_thin_it.otf */; };
+		7EF88A241EA5FC9600A43B12 /* Brandon_thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF88A181EA5FC9600A43B12 /* Brandon_thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04179D1D1EE130E3009A1BFB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		044108911EF3AEBF00686DF8 /* WebServicesURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServicesURL.swift; sourceTree = "<group>"; };
+		044108981EF3E7FA00686DF8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0441089A1EF3F82700686DF8 /* ForgotPasswordVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC1.swift; sourceTree = "<group>"; };
+		04AF08241EF5060A00D69F71 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		04AF08261EF51BD600D69F71 /* CreateEventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventVC.swift; sourceTree = "<group>"; };
+		04CBF7271EF2BAFA0082F8C8 /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		546A21A794174AF389DCD298 /* Pods-Netwrkr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netwrkr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Netwrkr/Pods-Netwrkr.release.xcconfig"; sourceTree = "<group>"; };
 		7E53928B1EA4F3B10087081A /* Netwrkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netwrkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E53928E1EA4F3B10087081A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E5392901EA4F3B10087081A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E5392931EA4F3B10087081A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E5392951EA4F3B10087081A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E5392981EA4F3B10087081A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E53929A1EA4F3B10087081A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA3DD7A1EA63A73003FEC28 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7EA3DD7C1EA63A85003FEC28 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7EF88A041EA5FC7900A43B12 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EF88A071EA5FC7900A43B12 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EF88A0D1EA5FC9600A43B12 /* Brandon_bld_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_bld_it.otf; sourceTree = "<group>"; };
+		7EF88A0E1EA5FC9600A43B12 /* Brandon_bld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_bld.otf; sourceTree = "<group>"; };
+		7EF88A0F1EA5FC9600A43B12 /* Brandon_blk_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_blk_it.otf; sourceTree = "<group>"; };
+		7EF88A101EA5FC9600A43B12 /* Brandon_blk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_blk.otf; sourceTree = "<group>"; };
+		7EF88A111EA5FC9600A43B12 /* Brandon_light_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_light_it.otf; sourceTree = "<group>"; };
+		7EF88A121EA5FC9600A43B12 /* Brandon_light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_light.otf; sourceTree = "<group>"; };
+		7EF88A131EA5FC9600A43B12 /* Brandon_med_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_med_it.otf; sourceTree = "<group>"; };
+		7EF88A141EA5FC9600A43B12 /* Brandon_med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_med.otf; sourceTree = "<group>"; };
+		7EF88A151EA5FC9600A43B12 /* Brandon_reg_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg_it.otf; sourceTree = "<group>"; };
+		7EF88A161EA5FC9600A43B12 /* Brandon_reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg.otf; sourceTree = "<group>"; };
+		7EF88A171EA5FC9600A43B12 /* Brandon_thin_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_thin_it.otf; sourceTree = "<group>"; };
+		7EF88A181EA5FC9600A43B12 /* Brandon_thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_thin.otf; sourceTree = "<group>"; };
+		B25F648F3CD5A91F51BDEB71 /* Pods-Netwrkr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netwrkr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Netwrkr/Pods-Netwrkr.debug.xcconfig"; sourceTree = "<group>"; };
+		D15F30EB5C02E4623CF510DC /* Pods_Netwrkr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Netwrkr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +75,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7B842BF0D0A8DBC1B0C275 /* Pods_Netwrkr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044108971EF3E7D800686DF8 /* ForgotPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				044108981EF3E7FA00686DF8 /* ForgotPasswordViewController.swift */,
+				0441089A1EF3F82700686DF8 /* ForgotPasswordVC1.swift */,
+			);
+			path = ForgotPasswordViewController;
+			sourceTree = "<group>";
+		};
+		04CBF7261EF2BAC80082F8C8 /* DashBoardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04CBF7271EF2BAFA0082F8C8 /* DashBoardViewController.swift */,
+				04AF08241EF5060A00D69F71 /* EventViewController.swift */,
+				04AF08261EF51BD600D69F71 /* CreateEventVC.swift */,
+			);
+			path = DashBoardViewController;
+			sourceTree = "<group>";
+		};
+		52D73014871DD75211401AD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B25F648F3CD5A91F51BDEB71 /* Pods-Netwrkr.debug.xcconfig */,
+				546A21A794174AF389DCD298 /* Pods-Netwrkr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77AFEEC127820C0B55A39121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D15F30EB5C02E4623CF510DC /* Pods_Netwrkr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E5392821EA4F3B00087081A = {
 			isa = PBXGroup;
 			children = (
 				7E53928D1EA4F3B10087081A /* Netwrkr */,
 				7E53928C1EA4F3B10087081A /* Products */,
+				52D73014871DD75211401AD6 /* Pods */,
+				77AFEEC127820C0B55A39121 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +139,96 @@
 		7E53928D1EA4F3B10087081A /* Netwrkr */ = {
 			isa = PBXGroup;
 			children = (
-				7E53928E1EA4F3B10087081A /* AppDelegate.swift */,
-				7E5392901EA4F3B10087081A /* ViewController.swift */,
+				7EF88A031EA5FC7900A43B12 /* AppDelegate */,
+				7EF88A051EA5FC7900A43B12 /* Classes */,
+				7EF88A081EA5FC7900A43B12 /* Resources */,
+				7EF88A0A1EA5FC7900A43B12 /* Utility */,
 				7E5392921EA4F3B10087081A /* Main.storyboard */,
 				7E5392951EA4F3B10087081A /* Assets.xcassets */,
 				7E5392971EA4F3B10087081A /* LaunchScreen.storyboard */,
 				7E53929A1EA4F3B10087081A /* Info.plist */,
 			);
 			path = Netwrkr;
+			sourceTree = "<group>";
+		};
+		7EA3DD781EA63A44003FEC28 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7EA3DD7A1EA63A73003FEC28 /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		7EA3DD791EA63A44003FEC28 /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7EA3DD7C1EA63A85003FEC28 /* SignUpViewController.swift */,
+			);
+			path = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		7EF88A031EA5FC7900A43B12 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7EF88A041EA5FC7900A43B12 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7EF88A051EA5FC7900A43B12 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				044108971EF3E7D800686DF8 /* ForgotPasswordViewController */,
+				04CBF7261EF2BAC80082F8C8 /* DashBoardViewController */,
+				7EA3DD781EA63A44003FEC28 /* LoginViewController */,
+				7EA3DD791EA63A44003FEC28 /* SignUpViewController */,
+				7EF88A061EA5FC7900A43B12 /* RootViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7EF88A061EA5FC7900A43B12 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7EF88A071EA5FC7900A43B12 /* ViewController.swift */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		7EF88A081EA5FC7900A43B12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7EF88A091EA5FC7900A43B12 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7EF88A091EA5FC7900A43B12 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7EF88A0D1EA5FC9600A43B12 /* Brandon_bld_it.otf */,
+				7EF88A0E1EA5FC9600A43B12 /* Brandon_bld.otf */,
+				7EF88A0F1EA5FC9600A43B12 /* Brandon_blk_it.otf */,
+				7EF88A101EA5FC9600A43B12 /* Brandon_blk.otf */,
+				7EF88A111EA5FC9600A43B12 /* Brandon_light_it.otf */,
+				7EF88A121EA5FC9600A43B12 /* Brandon_light.otf */,
+				7EF88A131EA5FC9600A43B12 /* Brandon_med_it.otf */,
+				7EF88A141EA5FC9600A43B12 /* Brandon_med.otf */,
+				7EF88A151EA5FC9600A43B12 /* Brandon_reg_it.otf */,
+				7EF88A161EA5FC9600A43B12 /* Brandon_reg.otf */,
+				7EF88A171EA5FC9600A43B12 /* Brandon_thin_it.otf */,
+				7EF88A181EA5FC9600A43B12 /* Brandon_thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7EF88A0A1EA5FC7900A43B12 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				04179D1D1EE130E3009A1BFB /* Constants.swift */,
+				044108911EF3AEBF00686DF8 /* WebServicesURL.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E53929D1EA4F3B10087081A /* Build configuration list for PBXNativeTarget "Netwrkr" */;
 			buildPhases = (
+				9A39E8BE0075D55C5CF6FB99 /* [CP] Check Pods Manifest.lock */,
 				7E5392871EA4F3B10087081A /* Sources */,
 				7E5392881EA4F3B10087081A /* Frameworks */,
 				7E5392891EA4F3B10087081A /* Resources */,
+				6DFC8F19F77DEB3D890E94E5 /* [CP] Embed Pods Frameworks */,
+				208C5F013F5A338B480E031F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,21 +294,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF88A241EA5FC9600A43B12 /* Brandon_thin.otf in Resources */,
 				7E5392991EA4F3B10087081A /* LaunchScreen.storyboard in Resources */,
 				7E5392961EA4F3B10087081A /* Assets.xcassets in Resources */,
+				7EF88A211EA5FC9600A43B12 /* Brandon_reg_it.otf in Resources */,
+				7EF88A1D1EA5FC9600A43B12 /* Brandon_light_it.otf in Resources */,
+				7EF88A1C1EA5FC9600A43B12 /* Brandon_blk.otf in Resources */,
+				7EF88A221EA5FC9600A43B12 /* Brandon_reg.otf in Resources */,
+				7EF88A231EA5FC9600A43B12 /* Brandon_thin_it.otf in Resources */,
+				7EF88A1E1EA5FC9600A43B12 /* Brandon_light.otf in Resources */,
+				7EF88A1A1EA5FC9600A43B12 /* Brandon_bld.otf in Resources */,
+				7EF88A1F1EA5FC9600A43B12 /* Brandon_med_it.otf in Resources */,
+				7EF88A1B1EA5FC9600A43B12 /* Brandon_blk_it.otf in Resources */,
+				7EF88A191EA5FC9600A43B12 /* Brandon_bld_it.otf in Resources */,
+				7EF88A201EA5FC9600A43B12 /* Brandon_med.otf in Resources */,
 				7E5392941EA4F3B10087081A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		208C5F013F5A338B480E031F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Netwrkr/Pods-Netwrkr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFC8F19F77DEB3D890E94E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Netwrkr/Pods-Netwrkr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A39E8BE0075D55C5CF6FB99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E5392871EA4F3B10087081A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5392911EA4F3B10087081A /* ViewController.swift in Sources */,
-				7E53928F1EA4F3B10087081A /* AppDelegate.swift in Sources */,
+				04AF08271EF51BD600D69F71 /* CreateEventVC.swift in Sources */,
+				044108991EF3E7FA00686DF8 /* ForgotPasswordViewController.swift in Sources */,
+				04179D1E1EE130E3009A1BFB /* Constants.swift in Sources */,
+				7EA3DD7B1EA63A73003FEC28 /* LoginViewController.swift in Sources */,
+				7EF88A0C1EA5FC7900A43B12 /* ViewController.swift in Sources */,
+				04CBF7281EF2BAFA0082F8C8 /* DashBoardViewController.swift in Sources */,
+				04AF08251EF5060A00D69F71 /* EventViewController.swift in Sources */,
+				7EA3DD7D1EA63A85003FEC28 /* SignUpViewController.swift in Sources */,
+				0441089B1EF3F82700686DF8 /* ForgotPasswordVC1.swift in Sources */,
+				7EF88A0B1EA5FC7900A43B12 /* AppDelegate.swift in Sources */,
+				044108921EF3AEBF00686DF8 /* WebServicesURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +498,12 @@
 		};
 		7E53929E1EA4F3B10087081A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25F648F3CD5A91F51BDEB71 /* Pods-Netwrkr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W2P979YBH4;
 				INFOPLIST_FILE = Netwrkr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.Netwrkr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +513,12 @@
 		};
 		7E53929F1EA4F3B10087081A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546A21A794174AF389DCD298 /* Pods-Netwrkr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W2P979YBH4;
 				INFOPLIST_FILE = Netwrkr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.Netwrkr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +545,7 @@
 				7E53929F1EA4F3B10087081A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
